@@ -7,7 +7,7 @@ Here we provide a practical protocol for building a confocal microscope using of
 ![Figure 1.](figures/Picture1.png)
 
 Let us start building a confocal microscope. The Zemax design of the microscope objective lens and tube les are found on Thorlabs’ website. The first element of the confocal microscope to insert is the beam splitter (Surface 2 in Fig. 2), which reflects the incident beam down at a 90o angle. Remember that the beam splitter separates the incident beam in two directions: one beam is transmitted through the beam splitter, and the second is reflected as a mirror does. The beam splitter was created by inserting a foldable mirror surface after the first element (a dumb surface, Surface 1 in Fig. 2) in our system with an angle of 45o.
-![Figure 1.](figures/Picture2.png)
+[Fig. 2. Two-dimensional optical layout of the confocal microscope in Zemax OpticStudio](figures/Picture2.png)
 
 The second element in our system is an aspheric condenser lens (Surface 3 in Fig. 2), which replaces the microscope objective lens. Without any loss of generality, we select the AC1210U-A Thorlab’s aspheric condenser lens with a diameter of 12 mm, a focal length of 10.5 mm, and a numerical aperture (NA) of 0.54. The AC1210U-A lens has a focal spot size equal to 3.953 µm at a wavelength of 633 nm. 
 The third element of the confocal microscope is a flat mirror. This mirror mimics a perfect thin fluorescent sample, reflecting the light back into the condenser lens. Since the confocal microscope is a point-based illumination, the mirror should be located at the focal plane of the condensing lens. Based on the manufacturer’s datasheet, the focal plane is placed at a distance equal to 6.725 mm distance from the last surface of the lens. 
