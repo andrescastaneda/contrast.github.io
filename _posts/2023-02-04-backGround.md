@@ -28,8 +28,8 @@ This capability is a consequence of the fact that the object focal plane of the 
      height="400"
      class="center" />
 
-<img src=”(https://drive.google.com/file/d/1Joc_URPieUBfF4xzSwPa7W-3sekMBQrl/view?usp=share_link)” 
-     alt=”Fig. 1. Optical configuration of a Confocal Microscope. The key feature of the point-based illumination and detection.” 
+<img src="(https://drive.google.com/file/d/1Joc_URPieUBfF4xzSwPa7W-3sekMBQrl/view?usp=share_link)" 
+     alt="Fig. 1. Optical configuration of a Confocal Microscope. The key feature of the point-based illumination and detection."
      width="400" 
      height="400" />.
 
