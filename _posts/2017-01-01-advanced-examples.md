@@ -16,7 +16,8 @@ The second metric used to analyze the performance of the confocal microscope was
 
 <img src="figures/Picture4.png" 
      width="500" 
-     height="600" />
+     height="600" 
+     class="center" />
 
 Finally, we have evaluated the spot diagram of our confocal system, see Fig. 4. The spot diagram shows the image produced by our confocal system assuming that the object was a point source (e.g., the spot of light). Aberrations such as astigmatism and coma are instantly viewed on the spot diagram since they produce asymmetric images. Figure 4 shows that the spot diagrams for the different wavelengths are symmetrical, confirming that astigmatism and coma aberrations are not present. This result already agrees with the conclusion provided by the Seidel diagram. From Fig. 4, we can see that the spot size is wavelength dependent. The root-mean-square (RMS) radius is: 1.015 μm for purple color (λ = 0.400 µm), 1.138 µm for green color (λ = 0.515 µm), and 1.339 µm for deep red color (λ = 0.655 µm). Note that there is a variation of 0.329 μm within the visible spectrum.
 
