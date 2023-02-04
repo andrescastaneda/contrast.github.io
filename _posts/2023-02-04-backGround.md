@@ -23,7 +23,7 @@ is placed right after the pinhole to collect the maximum amount of light.
 As previously mentioned, the feature of confocal microscopy is its optical sectioning capability (i.e., the optical removal of the out-of-focus information). 
 This capability is a consequence of the fact that the object focal plane of the objective lens is conjugated with a pinhole plane. Therefore, parts of the sample outside the in-focus plane (e.g., object focal plane of the objective lens) are not conjugated with the pinhole (e.g., image plane), reducing the probability of fluorescent light detection. In other words, point-based detection using the pinhole is responsible for providing optical sectioning capability. On the other hand, parts of the sample outside the in-focus plane receive a smaller illumination density, reducing the probability of fluorescent emission and photobleaching of the samples. 
 
-<img src="figures/Picture1.png" 
+<img src="https://drive.google.com/file/d/1Joc_URPieUBfF4xzSwPa7W-3sekMBQrl/view?usp=share_link" 
      width="400" 
      height="400"
      class="center" />
