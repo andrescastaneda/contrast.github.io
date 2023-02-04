@@ -1,8 +1,9 @@
 ---
-title: "Welcome to Jekyll"
+title: "Implementation of a confocal microscope using Thorlabs components"
 layout: post
 ---
 
+Confocal microscopes are known for optically removing the out-of-focus information (i.e., blur) in each transverse section of the sample’s volume, providing a more accurate three-dimensional image of thick microscopic samples than widefield microscopes. In this work, we have designed and evaluated a confocal microscope using off-of-shelf optical components from Thorlabs’ catalog, one of the major optical manufacturers. The design and evaluation have been implemented using Zemax OpticStudio, the standard optical system design software. Here, we have also reported a practical protocol for building a confocal microscope using sequential mode. 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 
