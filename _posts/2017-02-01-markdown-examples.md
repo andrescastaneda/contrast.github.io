@@ -5,13 +5,6 @@ layout: post
 
 Here we provide a practical protocol for building a confocal microscope using off-of-shelf optical components from Thorlabs’ catalog, one of the major optical manufacturers. The design and evaluation have been implemented using Zemax OpticStudio, the standard optical system design software. In our design, we have two main changes to Figure 1. The first one is the replacement of the dichroic mirror by a beam splitter. Dichoric mirrors reflect and transmit light at two different wavelengths (e.g., color). For example, a longpass dichroic mirror with a cutoff wavelength of 490 nm reflect light with wavelength shorter than 480 nm towards the microscope objective lens in the illumination system and transmit wavelength larger than 500 nm towards the tube lens in the detection system. Conversely, beam splitters are optical elements that split incident light into two beams regardless of the wavelength. Although a beam splitter is not the desired optical element to build an experimental confocal microscope due to the loss of energy, it allows us to analyze the performance of the confocal microscope at different wavelengths without replacing the dichroic mirror. The second change is replacing the microscope objective lens with a condenser lens for design simplicity.
 
-<img src="figures/Picture1.png" 
-     width="400" 
-     height="400"
-     class="center" />
-
-
-[Fig. 1. Optical configuration of a Confocal Microscope. The key feature of the point-based illumination and detection.]
 
 Let us start building a confocal microscope. The Zemax design of the microscope objective lens and tube les are found on Thorlabs’ website. The first element of the confocal microscope to insert is the beam splitter (Surface 2 in Fig. 2), which reflects the incident beam down at a 90o angle. Remember that the beam splitter separates the incident beam in two directions: one beam is transmitted through the beam splitter, and the second is reflected as a mirror does. The beam splitter was created by inserting a foldable mirror surface after the first element (a dumb surface, Surface 1 in Fig. 2) in our system with an angle of 45o.
 
