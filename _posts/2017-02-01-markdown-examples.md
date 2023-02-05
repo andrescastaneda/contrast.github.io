@@ -12,8 +12,7 @@ Let us start building a confocal microscope. The Zemax design of the microscope 
      width="400" 
      height="300"
      class="center" />
-
-
+<br>
 [Fig.2. Two-dimensional optical layout of the confocal microscope in Zemax OpticStudio.] 
 
 The second element in our system is an aspheric condenser lens (Surface 3 in Fig. 2), which replaces the microscope objective lens. Without any loss of generality, we select the AC1210U-A Thorlab’s aspheric condenser lens with a diameter of 12 mm, a focal length of 10.5 mm, and a numerical aperture (NA) of 0.54. The AC1210U-A lens has a focal spot size equal to 3.953 µm at a wavelength of 633 nm. 
